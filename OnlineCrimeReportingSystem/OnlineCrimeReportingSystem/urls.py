@@ -19,5 +19,4 @@ from CrimeReportingApp import  views as v
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('lulu/', v.run)
 ]
