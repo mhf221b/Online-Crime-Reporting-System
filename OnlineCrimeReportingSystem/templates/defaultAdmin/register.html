@@ -1,0 +1,23 @@
+{% extends 'defaultAdmin/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block title %}
+    Sign Up
+{% endblock %}
+
+{% block contents %}
+    <div style="padding-left: 40%; padding-right:30%; padding-bottom: 5%;">
+        <h1>Please Enter necessary informations for signing up!</h1>
+        <br>
+            <form method='POST'>
+                {% csrf_token %}
+                <fieldset class="form-group">
+                {{ form|crispy }}
+                </fieldset>
+
+                <button class="submit form-group btn btn-outline-info">
+                    Sign Up
+                </button>
+            </form>
+    </div>
+{% endblock %}
