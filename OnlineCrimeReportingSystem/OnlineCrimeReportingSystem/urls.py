@@ -19,4 +19,6 @@ from defaultAdmin import views as dAviews
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('admins/', include('defaultAdmin.urls')),
+    path('accounts/profile/', dAviews.profile, name="Profile"),
+
 ]
