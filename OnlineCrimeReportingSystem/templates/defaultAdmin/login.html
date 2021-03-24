@@ -2,12 +2,12 @@
 {% load crispy_forms_tags %}
 
 {% block title %}
-    Sign Up
+    Log In
 {% endblock %}
 
 {% block contents %}
-    <div style="padding-left: 40%; padding-right:30%; padding-bottom: 5%;">
-        <h1>Please Enter necessary informations for signing up!</h1>
+    <div style="padding-left: 35%; padding-right:35%; padding-bottom: 5%;">
+        <h1>Please Enter your username and password for Logging In!</h1>
         <br>
             <form method='POST'>
                 {% csrf_token %}
@@ -16,11 +16,9 @@
                 </fieldset>
 
                 <button class="submit form-group btn btn-outline-info">
-                    Sign Up
+                    Log In
                 </button>
             </form>
-        <div>
-            <p>Already have an account? <a href="{% url 'login' %}">Sign In</a> here! </p>
-        </div>
+        <p>Don't have an Account? <a href="{% url 'register' %}">Sign Up</a> Here!</p>
     </div>
 {% endblock %}
