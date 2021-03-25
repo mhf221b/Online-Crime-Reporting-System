@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'defaultAdmin',
     'crispy_forms',
     'crimereports',
+    'status',
 ]
 
 MIDDLEWARE = [
