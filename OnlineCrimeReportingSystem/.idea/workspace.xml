@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cfc137b-6d6d-4f60-9826-b9d9629f2b67" name="Default Changelist" comment="" />
+    <list default="true" id="9cfc137b-6d6d-4f60-9826-b9d9629f2b67" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OnlineCrimeReportingSystem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineCrimeReportingSystem/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +57,7 @@
       <recent name="E:\Python Codes\With Pycharm\Git Project\Online-Crime-Reporting-System\OnlineCrimeReportingSystem\templates\defaultAdmin" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Django Server.OnlineCrimeReportingSystem">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="OnlineCrimeReportingSystem" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -120,6 +123,8 @@
       <workItem from="1616559644893" duration="81000" />
       <workItem from="1616600113007" duration="2091000" />
       <workItem from="1616605320250" duration="23945000" />
+      <workItem from="1616635565955" duration="33000" />
+      <workItem from="1616643318932" duration="241000" />
     </task>
     <servers />
   </component>
