@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'defaultAdmin',
     'crispy_forms',
+    'crimereports',
+    'status',
 ]
 
 MIDDLEWARE = [
