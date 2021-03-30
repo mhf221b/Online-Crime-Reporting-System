@@ -16,10 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from defaultAdmin import views as dAviews
+from lawagency import views as lv
 urlpatterns = [
     path('', dAviews.home),
     path('admin/', admin.site.urls),
     path('admins/', include('defaultAdmin.urls')),
     path('accounts/profile/', dAviews.profile, name="Profile"),
+    path('database/', include('lawagency.urls')),
+
 
 ]
