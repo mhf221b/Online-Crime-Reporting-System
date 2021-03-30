@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cfc137b-6d6d-4f60-9826-b9d9629f2b67" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineCrimeReportingSystem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineCrimeReportingSystem/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineCrimeReportingSystem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineCrimeReportingSystem/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crimereports/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crimereports/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crimereports/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crimereports/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crimereports/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crimereports/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crimereports/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crimereports/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/status/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/status/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/status/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/status/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/status/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/status/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/status/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/status/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,6 +130,10 @@
 =======
       <workItem from="1616635565955" duration="33000" />
       <workItem from="1616643318932" duration="241000" />
+<<<<<<< HEAD
+>>>>>>> main
+=======
+      <workItem from="1616661688466" duration="530000" />
 >>>>>>> main
     </task>
     <servers />
