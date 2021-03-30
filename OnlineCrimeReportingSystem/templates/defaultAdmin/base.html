@@ -32,10 +32,11 @@
                   <li class="nav__item"><a href="{% url 'home' %}">Home</a></li>
                    <li class="nav__item"><a href="{% url 'profile' %}">Profile</a></li>
                   <li class="nav__item"><a href="{% url 'logout' %}">Log Out</a></li>
+                  <li class="nav__item"><a href="{% url 'lawagency' %}">Law Agency</a></li>
                  {% else %}
-                  <li class="nav__item"><a href="{% url 'home' %}">Home</a></li>
                   <li class="nav__item"><a href="{% url 'login' %}">Log In</a></li>
                   <li class="nav__item"><a href="{% url 'register' %}">Register</a></li>
+
 
               {% endif %}
             {#            <li class="nav__item"><a href="#">Contact</a></li>#}
@@ -52,5 +53,10 @@
     <!-- Header End -->
 
     <script src="{% static 'defaultAdmin/header-1.js' %}"></script>
+  {% block headers %}
+  {% endblock %}
+
+  {% block database %}
+  {% endblock %}
   </body>
 </html>
