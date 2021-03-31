@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cfc137b-6d6d-4f60-9826-b9d9629f2b67" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/templates/user/usersinfo.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineCrimeReportingSystem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineCrimeReportingSystem/urls.py" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/Crimereports.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Status.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> kaniz
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lawagency/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lawagency/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lawagency/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lawagency/views.py" afterDir="false" />
@@ -129,6 +135,7 @@
       <workItem from="1616529361154" duration="10505000" />
       <workItem from="1616559644893" duration="81000" />
       <workItem from="1616600113007" duration="2091000" />
+<<<<<<< HEAD
       <workItem from="1616605320250" duration="23945000" />
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -154,12 +161,36 @@
       <workItem from="1617145945056" duration="317000" />
       <workItem from="1617147236281" duration="3522000" />
 >>>>>>> main
+=======
+      <workItem from="1616605320250" duration="12172000" />
+      <workItem from="1616625131966" duration="5334000" />
+      <workItem from="1616852768342" duration="345000" />
+      <workItem from="1617126179706" duration="1506000" />
+      <workItem from="1617133722486" duration="6624000" />
+      <workItem from="1617142280429" duration="9000" />
+      <workItem from="1617166739571" duration="11526000" />
+>>>>>>> kaniz
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+>>>>>>> kaniz
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
