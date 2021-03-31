@@ -9,18 +9,18 @@
     <br>
     <br>
     <div align="center">
-        <h3>This is the database of out users:</h3>
+        <h3 style="border: 4px solid DodgerBlue; padding-top: 8px; padding-bottom: 10px;">User:</h3>
     </div>
     <br>
     <br>
 {% endblock %}
 
 {% block database %}
-    <div align="center" >
+    <div align="center">
     <table>
         <thead>
-            <tr align="center">
-                <th><h4>First Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4></th>
+            <tr align="center" style="border: 2px solid DodgerBlue">
+                <th><h4>&nbsp;&nbsp;&nbsp;&nbsp;First Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4></th>
                 <th><h4>Last Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4></th>
                 <th><h4>NID Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4></th>
                 <th><h4>Email Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4></th>
@@ -31,7 +31,7 @@
         </thead>
         <tbody>
             {% for var in var %}
-                <tr align="center">
+                <tr align="center" style="border: 2px solid DodgerBlue">
                 <td><strong>{{ var.first_name }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td>
                 <td><strong>{{ var.last_name }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td>
                 <td><strong>{{ var.nid }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td>

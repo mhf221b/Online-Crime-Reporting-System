@@ -8,7 +8,7 @@
     <br>
     <br>
     <div align="center">
-    <h3>This is the database of all Law Agency:</h3>
+    <h3 style="border: 4px solid DodgerBlue; padding-bottom: 10px; padding-top: 8px">Law Agency:</h3>
     </div>
 {% endblock %}
 
@@ -18,16 +18,16 @@
     <div align="center">
     <table>
     <thead>
-        <tr align="center">
-            <th><h4>User ID</h4></th>
+        <tr align="center" style="border: 2px solid DodgerBlue;">
+            <th><h4>&nbsp;User ID</h4></th>
             <th><h4>Name</h4></th>
             <th><h4>Email Address&nbsp;&nbsp;</h4></th>
-            <th><h4>Agency Branch</h4></th>
+            <th><h4>Agency Branch&nbsp;</h4></th>
         </tr>
     </thead>
     <tbody>
         {% for lawlist in lawlist %}
-            <tr align="center">
+            <tr align="center" style="border: 2px solid DodgerBlue">
                 <td><strong>{{ lawlist.user_id }}</strong></td>
                 <td><strong>{{ lawlist.name }}</strong></td>
                 <td><strong>{{ lawlist.email }}</strong></td>

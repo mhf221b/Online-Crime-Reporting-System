@@ -31,7 +31,9 @@
               {% if user.is_authenticated %}
                   <li class="nav__item"><a href="{% url 'home' %}">Home</a></li>
                   <li class="nav__item"><a href="{% url 'profile' %}">Profile</a></li>
+                  <li class="nav__item"><a href="{% url 'crimereports' %}">Crime Reports</a></li>
                   <li class="nav__item"><a href="{% url 'lawagency' %}">Law Agency</a></li>
+                  <li class="nav__item"><a href="{% url 'status' %}">Status</a></li>
                   <li class="nav__item"><a href="{% url 'user' %}">User</a></li>
                   <li class="nav__item"><a href="{% url 'logout' %}">Log Out</a></li>
               {% else %}
@@ -53,14 +55,12 @@
     <!-- Header End -->
 
     <script src="{% static 'defaultAdmin/header-1.js' %}"></script>
-<<<<<<< HEAD
   {% block headers %}
   {% endblock %}
 
   {% block database %}
-=======
+    {% endblock %}
   {% block content %}
->>>>>>> kaniz
   {% endblock %}
   </body>
 </html>

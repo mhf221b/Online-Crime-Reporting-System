@@ -3,5 +3,5 @@ from django.urls import path
 
 
 urlpatterns = [
-    path('database/', uv.userdatabase, name="user"),
+    path('user/', uv.userdatabase, name="user"),
 ]
