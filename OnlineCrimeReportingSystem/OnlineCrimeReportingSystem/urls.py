@@ -16,14 +16,24 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from defaultAdmin import views as dAviews
+<<<<<<< HEAD
 from lawagency import views as lv
+=======
+from crimereports import views as cv
+from status import views as dv
+>>>>>>> kaniz
 urlpatterns = [
     path('', dAviews.home),
     path('admin/', admin.site.urls),
     path('admins/', include('defaultAdmin.urls')),
     path('accounts/profile/', dAviews.profile, name="Profile"),
+<<<<<<< HEAD
     path('lawagency/', include('lawagency.urls')),
     path('user/', include('user.urls')),
 
+=======
+    path('testing/', cv.cr),
+    path('stats/', dv.ss),
+>>>>>>> kaniz
 
 ]

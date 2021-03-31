@@ -1,0 +1,48 @@
+{% extends 'defaultAdmin/base.html' %}
+
+{% block title %}
+   Crimereports info
+{% endblock %}
+
+
+{% block contents %}
+    <br>
+    <br>
+    <h1 align="center" style="border:4px solid DodgerBlue;">Crime Reports</h1>
+
+{% endblock %}
+
+{% block content %}
+    <br>
+    <br>
+    <br>
+    <br>
+    <div align="center">
+    <table>
+        <thead>
+            <tr align="center" style="border:2px solid DodgerBlue;">
+                <th><h4 >Crime ID &nbsp;&nbsp;</h4></th>
+                <th><h4>NID &nbsp;&nbsp;</h4></th>
+                <th><h4>Type of Crime &nbsp;&nbsp;</h4></th>
+                <th><h4>Location of Crime &nbsp;&nbsp;</h4></th>
+                <th><h4>Date of Crime </h4></th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for crimereports in crimereports %}
+                <tr align="center" align="center" style="border:2px solid DodgerBlue;">
+                    <td><strong>{{ crimereports.crime_id }}&nbsp;&nbsp;&nbsp;</strong></td>
+                    <td><strong>{{ crimereports.nid }}&nbsp;&nbsp;&nbsp;</strong></td>
+                    <td><strong>{{ crimereports.type_of_crime }}&nbsp;&nbsp;&nbsp;</strong></td>
+                    <td><strong>{{ crimereports.location_of_crime }}&nbsp;&nbsp;&nbsp;</strong></td>
+                    <td><strong>{{ crimereports.date_of_crime }}&nbsp;&nbsp;&nbsp;</strong></td>
+
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    </div>
+
+{% endblock %}
