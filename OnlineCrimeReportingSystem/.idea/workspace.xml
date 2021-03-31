@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cfc137b-6d6d-4f60-9826-b9d9629f2b67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/status/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/status/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/status/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/status/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/status/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/status/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/status/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/status/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crimereports.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Status.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OnlineCrimeReportingSystem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineCrimeReportingSystem/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,6 +99,11 @@
       <workItem from="1616600113007" duration="2091000" />
       <workItem from="1616605320250" duration="12172000" />
       <workItem from="1616625131966" duration="5334000" />
+      <workItem from="1616852768342" duration="345000" />
+      <workItem from="1617126179706" duration="1506000" />
+      <workItem from="1617133722486" duration="6624000" />
+      <workItem from="1617142280429" duration="9000" />
+      <workItem from="1617166739571" duration="11526000" />
     </task>
     <servers />
   </component>
@@ -122,6 +120,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
