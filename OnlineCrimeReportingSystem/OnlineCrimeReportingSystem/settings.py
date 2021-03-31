@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'status',
     'user',
     'lawagency',
+    'history',
 ]
 
 MIDDLEWARE = [
