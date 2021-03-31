@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cfc137b-6d6d-4f60-9826-b9d9629f2b67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lawagency/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/lawagency/databaseoflawagency.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/user/usersinfo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OnlineCrimeReportingSystem/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/OnlineCrimeReportingSystem/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lawagency/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/lawagency/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lawagency/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lawagency/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/defaultAdmin/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/defaultAdmin/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/user/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +25,8 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -145,6 +147,12 @@
 =======
       <workItem from="1617116785078" duration="77000" />
       <workItem from="1617116927972" duration="11193000" />
+<<<<<<< HEAD
+>>>>>>> main
+=======
+      <workItem from="1617136410466" duration="8191000" />
+      <workItem from="1617145945056" duration="317000" />
+      <workItem from="1617147236281" duration="3522000" />
 >>>>>>> main
     </task>
     <servers />
