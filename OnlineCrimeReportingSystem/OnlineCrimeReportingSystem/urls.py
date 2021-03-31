@@ -16,9 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from defaultAdmin import views as dAviews
+from crimereports import views as cv
+from status import views as dv
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('admins/', include('defaultAdmin.urls')),
     path('accounts/profile/', dAviews.profile, name="Profile"),
+    path('testing/', cv.cr),
+    path('stats/', dv.ss),
 
 ]
