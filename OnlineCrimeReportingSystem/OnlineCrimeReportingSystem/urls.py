@@ -22,7 +22,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('admins/', include('defaultAdmin.urls')),
     path('accounts/profile/', dAviews.profile, name="Profile"),
-    path('database/', include('lawagency.urls')),
+    path('lawagency/', include('lawagency.urls')),
+    path('user/', include('user.urls')),
 
 
 ]

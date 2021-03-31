@@ -1,0 +1,47 @@
+{% extends 'defaultAdmin/base.html' %}
+
+
+{% block title %}
+    User Database
+{% endblock %}
+
+{% block headers %}
+    <br>
+    <br>
+    <div align="center">
+        <h3>This is the database of out users:</h3>
+    </div>
+    <br>
+    <br>
+{% endblock %}
+
+{% block database %}
+    <div align="center" >
+    <table>
+        <thead>
+            <tr align="center">
+                <th><h4>First Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4></th>
+                <th><h4>Last Name&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4></th>
+                <th><h4>NID Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4></th>
+                <th><h4>Email Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4></th>
+                <th><h4>Home Address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4></th>
+                <th><h4>Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4></th>
+                <th><h4>Mobile Number&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for var in var %}
+                <tr align="center">
+                <td><strong>{{ var.first_name }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td>
+                <td><strong>{{ var.last_name }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td>
+                <td><strong>{{ var.nid }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td>
+                <td><strong>{{ var.email }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td>
+                <td><strong>{{ var.home_address }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td>
+                <td><strong>{{ var.gender }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td>
+                <td><strong>{{ var.mobile_number }}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    </div>
+{% endblock %}
