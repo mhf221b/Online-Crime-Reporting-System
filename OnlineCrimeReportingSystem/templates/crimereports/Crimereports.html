@@ -26,6 +26,9 @@
                 <th><h4>Type of Crime &nbsp;&nbsp;</h4></th>
                 <th><h4>Location of Crime &nbsp;&nbsp;</h4></th>
                 <th><h4>Date of Crime &nbsp;&nbsp;</h4></th>
+                <th><h4>Complaint Status&nbsp;&nbsp;</h4></th>
+                <th><h4>Complaint History&nbsp;&nbsp;</h4></th>
+                <th><h4>Date&nbsp;&nbsp;</h4></th>
 
             </tr>
         </thead>
@@ -38,6 +41,9 @@
                     <td><strong>{{ crimereports.type_of_crime }}&nbsp;&nbsp;&nbsp;</strong></td>
                     <td><strong>{{ crimereports.location_of_crime }}&nbsp;&nbsp;&nbsp;</strong></td>
                     <td><strong>{{ crimereports.date_of_crime }}&nbsp;&nbsp;&nbsp;</strong></td>
+                    <td><strong>{{ crimereports.status.complaint_status}}</strong></td>
+                    <td><strong>{{ crimereports.status.complaint_history}}</strong></td>
+                    <td><strong>{{ crimereports.status.date}}&nbsp;&nbsp;</strong></td>
 
                 </tr>
             {% endfor %}
