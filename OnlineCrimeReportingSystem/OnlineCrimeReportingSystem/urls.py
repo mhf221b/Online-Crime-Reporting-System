@@ -30,5 +30,7 @@ urlpatterns = [
     path('database/', include('user.urls')),
     path('database/', include('crimereports.urls')),
     path('database/', include('status.urls')),
+    path('user/', include('user.urls')),
+    path('lawagency/', include('lawagency.urls')),
 
 ]
