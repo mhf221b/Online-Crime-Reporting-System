@@ -17,7 +17,9 @@ def userreg(request):
 
         if(dict['psw']==dict['psw-repeat']):
             print(dict['gender'])
-            us = User(first_name=dict['fname'],
+            try:
+
+                us = User(first_name=dict['fname'],
                       last_name=dict['lname'],
                       nid=dict['nid'],
                       email=dict['email'],
@@ -25,7 +27,10 @@ def userreg(request):
                       gender=dict['gender'],
                       mobile_number=dict['mnumber'],
                       password=dict['psw'])
-            us.save()
+                us.save()
+            except:
+                error = "Invalid Information Given, check again!"
+                return render(request, 'user/UserRegForm.html', {'error': error})
 
             return redirect('home')
 
