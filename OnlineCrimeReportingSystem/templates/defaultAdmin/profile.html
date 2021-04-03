@@ -5,11 +5,14 @@
 {% endblock %}
 
 
-
+        {% load crispy_forms_tags %}
         {% block contents %}
             <div style="padding-left: 40%; padding-right: 40%;">
-            My Name is: {{ name }}
-            <br>
-                My Email is: {{ email }}
+{#            <form method="POST">#}
+{#                {% csrf_token %}#}
+{#                {{ form|crispy }}#}
+                Profile
+            </form>
+
             </div>
         {% endblock %}

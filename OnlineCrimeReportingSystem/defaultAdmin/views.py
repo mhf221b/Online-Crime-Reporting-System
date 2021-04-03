@@ -3,6 +3,8 @@ from django.contrib.auth.forms import UserCreationForm
 from .forms import AdminRegistrationForm
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import get_user, authenticate, login
+from user.forms import UserReg
+
 
 # Create your views here.
 @login_required
@@ -11,13 +13,10 @@ def home(request):
 
 @login_required
 def profile(request):
-    user = get_user(request)
+    userreg = UserReg()
 
-    contents = {
-        'name': user.username,
-        'email': user.email,
-    }
-    return render(request, 'defaultAdmin/profile.html', contents)
+
+    return render(request, 'defaultAdmin/profile.html',{'form':userreg})
 
 
 def register(request):
