@@ -3,20 +3,21 @@ from django.contrib.auth.forms import UserCreationForm
 from .forms import AdminRegistrationForm
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import get_user, authenticate, login
+from django.contrib.auth.models import User
 from user.forms import UserReg
+from lawagency.models import LawAgency
 
 
 # Create your views here.
-@login_required
+@login_required(login_url='lawlogin')
 def home(request):
-    return render(request, 'defaultAdmin/home.html')
+    la = LawAgency.objects.all()
+    us = User.objects.all()
+    return render(request, 'defaultAdmin/home.html', {'la':la, 'us':us})
 
-@login_required
+@login_required(login_url='login')
 def profile(request):
-    userreg = UserReg()
-
-
-    return render(request, 'defaultAdmin/profile.html',{'form':userreg})
+    return render(request, 'defaultAdmin/profile.html')
 
 
 def register(request):
@@ -36,3 +37,6 @@ def register(request):
         'form': reg_form,
         }
     return render(request, 'defaultAdmin/register.html', context)
+
+def basehome(request):
+    return render(request, 'defaultAdmin/homebasetrial1.html')
