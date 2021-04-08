@@ -8,6 +8,14 @@
 
         {% block contents %}
             <div style= "padding-left:45%; padding-right:40%;padding-bottom: 15%;">
-                This is our Home Page!
+                {% for i in la %}
+                    {% if user.username == i.user.username  %}
+                        {{ i.agency_ID }}
+                    {% endif %}
+                {% endfor %}
+
+                first name = {{ user.agency_ID }}<br>
+                username = {{ user.username }}
+                agencytype = {{ la.user.agency_ID }}
             </div>
         {% endblock %}

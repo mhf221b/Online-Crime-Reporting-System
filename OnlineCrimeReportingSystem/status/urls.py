@@ -3,5 +3,5 @@ from . import views as st
 
 
 urlpatterns = [
-    path('status/', st.ss, name="status"),
+    path('update/', st.updateStatus, name="upstatus"),
 ]
