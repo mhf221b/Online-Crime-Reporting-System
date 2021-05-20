@@ -16,19 +16,33 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from defaultAdmin import views as dAviews
+from history import views as hv
+
+from django.conf import settings
+from django.conf.urls.static import static
 
 from lawagency import views as lv
 
 from crimereports import views as cv
 from status import views as dv
 urlpatterns = [
-    path('', dAviews.home),
+    # path('', dAviews.home),
     path('admin/', admin.site.urls),
     path('admins/', include('defaultAdmin.urls')),
     path('accounts/profile/', dAviews.profile, name="Profile"),
     path('database/', include('lawagency.urls')),
     path('database/', include('user.urls')),
     path('database/', include('crimereports.urls')),
+    path('crimereports/', include('crimereports.urls')),
     path('database/', include('status.urls')),
+    path('status/', include('status.urls')),
+    path('user/', include('user.urls')),
+    path('lawagency/', include('lawagency.urls')),
+    path('', dAviews.basehome, name="Home"),
+    path('history/', hv.profilepic, name = "Propic"),
+    path('history/update', hv.profile_update, name = "PropicUpdate"),
 
 ]
+
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)
